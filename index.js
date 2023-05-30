@@ -1,3 +1,17 @@
+
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 100) {
+      
+      $('.navigation').addClass('fixed-top')
+  } else {
+      
+      $('.navigation').removeClass('fixed-top')
+  }
+});
+
+
+
+
 $(document).ready(function() {
 
     // required elements
